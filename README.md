@@ -1,5 +1,8 @@
 # Crypto Agentic Lab
 
+![image](https://github.com/user-attachments/assets/82d248f2-b35d-488c-a49a-9314f3116d59)
+
+
 Crypto Agentic Lab is a compact toolkit for experimenting with GPT-3.5 models in crypto analysis. It features a pre-configured Docker stack with QuestDB, Grafana, Code-Server, Nginx, and an AI Agent for streamlined data management, visualization, and coding. Real-time data streaming from Binance and Coinbase is supported for financial insights.
 
 ## Features
@@ -20,15 +23,20 @@ Crypto Agentic Lab is a compact toolkit for experimenting with GPT-3.5 models in
     cd CryptoAgentic/docker
     ```
 3. Follow the [Docker setup guide](https://github.com/eKeiran/CryptoAgentic/tree/main/docker).
-4. Launch the stack:
+
+   ![image](https://github.com/user-attachments/assets/4f2c431e-e001-4313-875b-c72772dbc5c5)
+
+5. Launch the stack:
     ```bash
     docker compose up --build -d
     ```
-5. Access services:
+6. Access services:
     - QuestDB: `https://questdb.domain.tld`
     - Grafana: `https://grafana.domain.tld`
     - Code-Server: `https://vscode.domain.tld`
     - Crypto AI Agent UI: `https://aigentui.domain.tld`
+      
+![image](https://github.com/user-attachments/assets/38f5ad5d-dca7-4bf8-865f-cd67543f3a32)
 
 ## Real-Time Data
 
