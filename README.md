@@ -8,18 +8,18 @@ Crypto Agentic Lab is a compact toolkit for experimenting with GPT-3.5 models in
 - **Grafana**: Dashboards for cryptocurrency visualization.
 - **Code-Server**: Web-based coding IDE.
 - **Nginx**: Web server and reverse proxy.
-- **AI Agent**: Backend for AI processing.
-- **AI Agent UI**: Web interface for AI interaction.
+- **Crypto Agentic AI Lab**: Backend for AI processing.
+- **Crypto Agentic AI UI**: Web interface for AI interaction.
 
 ## Quick Start
 
 1. Install [Docker](https://docs.docker.com/get-docker/).
 2. Clone the repository:
     ```bash
-    git clone https://github.com/quantiota/AI-Agent-Lab.git
-    cd AI-Agent-Lab/docker
+    git clone https://github.com/eKeiran/CryptoAgentic
+    cd CryptoAgentic/docker
     ```
-3. Follow the [Docker setup guide](https://github.com/quantiota/AI-Agent-Lab/tree/main/docker).
+3. Follow the [Docker setup guide](https://github.com/eKeiran/CryptoAgentic/tree/main/docker).
 4. Launch the stack:
     ```bash
     docker compose up --build -d
@@ -28,7 +28,7 @@ Crypto Agentic Lab is a compact toolkit for experimenting with GPT-3.5 models in
     - QuestDB: `https://questdb.domain.tld`
     - Grafana: `https://grafana.domain.tld`
     - Code-Server: `https://vscode.domain.tld`
-    - AI Agent UI: `https://aigentui.domain.tld`
+    - Crypto AI Agent UI: `https://aigentui.domain.tld`
 
 ## Real-Time Data
 
@@ -38,11 +38,6 @@ Stream real-time Binance and Coinbase data into QuestDB for querying and visuali
 
 1. Set up JupyterHub with GPT-3.5 dependencies.
 2. Connect from Code-Server in the lab.
-
-## Diagram
-
-![Architecture Diagram](./ai-agent-lab-diagram.png)  
-[View High-Resolution](https://raw.githubusercontent.com/quantiota/AI-Agent-Lab/master/ai-agent-lab-diagram.png)
 
 ## References
 
